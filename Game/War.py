@@ -51,7 +51,7 @@ class war:
                 #@gmail.com
         self.newWindow()
         self.newround()
-    #מהלך של שחקן
+    #מהלך של שחקן במשחק
     def pmove(self,player,card):
         self.discards.append([player,card])
         if(self.countcards<4):
